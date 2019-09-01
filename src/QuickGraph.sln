@@ -9,6 +9,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1A3D8E58-90C
 	ProjectSection(SolutionItems) = preProject
 		NuGetLogo32x32.png = NuGetLogo32x32.png
 		NuGetLogo50x50.png = NuGetLogo50x50.png
+		NuGetLogo64x64.png = NuGetLogo64x64.png
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{617A3844-7708-452D-AE31-D93C6186C27B}"
