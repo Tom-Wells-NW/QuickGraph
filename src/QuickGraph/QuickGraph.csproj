@@ -18,6 +18,7 @@
 .NET Framework Version = 4.6.2
 .NET Framework Version = 4.8</PackageReleaseNotes>
     <RepositoryUrl>https://github.com/Tom-Wells-NW/QuickGraph</RepositoryUrl>
+    <PackageIconUrl>https://github.com/Tom-Wells-NW/QuickGraph/raw/master/src/NuGetLogo64x64.png</PackageIconUrl>
   </PropertyGroup>
   <ItemGroup>
     <Compile Remove="Algorithms\Search\HeightFirstSearchAlgorithm.cs" />
