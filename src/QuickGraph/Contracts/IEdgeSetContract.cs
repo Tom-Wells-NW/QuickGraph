@@ -37,10 +37,10 @@ namespace QuickGraph.Contracts
         {
             get 
             {
-                Contract.Ensures(Contract.Result<IEnumerable<TEdge>>() != null);
-                Contract.Ensures(Enumerable.All<TEdge>(Contract.Result<IEnumerable<TEdge>>(), e => e != null));
+                Contract.Ensures(Contract.Result<IEnumerable<TEdge>>() is not null);
+                Contract.Ensures(Enumerable.All<TEdge>(Contract.Result<IEnumerable<TEdge>>(), e => e is not null));
 
-                return default(IEnumerable<TEdge>);            
+                return default(IEnumerable<TEdge>);
             }
         }
 
@@ -48,7 +48,7 @@ namespace QuickGraph.Contracts
         bool IEdgeSet<TVertex, TEdge>.ContainsEdge(TEdge edge)
         {
             IEdgeSet<TVertex, TEdge> ithis = this;
-            Contract.Requires(edge != null);
+            Contract.Requires(edge is not null);
             Contract.Ensures(Contract.Result<bool>() == Contract.Exists(ithis.Edges, e => e.Equals(edge)));
 
             return default(bool);

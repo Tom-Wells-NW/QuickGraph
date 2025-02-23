@@ -13,7 +13,7 @@ namespace QuickGraph.Contracts
         bool IImplicitVertexSet<TVertex>.ContainsVertex(TVertex vertex)
         {
             IImplicitVertexSet<TVertex> ithis = this;
-            Contract.Requires(vertex != null);
+            Contract.Requires(vertex is not null);
 
             return default(bool);
         }

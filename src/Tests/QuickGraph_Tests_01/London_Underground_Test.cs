@@ -124,7 +124,7 @@ namespace QuickGraph_Tests_01
                 output.WriteLine("Distance from root to node {0} is {1}", kvp.Key, kvp.Value);
 
             foreach (KeyValuePair<string, Edge<string>> kvp in predecessorObserver.VertexPredecessors)
-                output.WriteLine("If you want to get to {0} you have to enter through the in edge {1}", kvp.Key, kvp.Value);
+                output.WriteLine("If you want to get to {0} you have to enter through the edge {1}", kvp.Key, kvp.Value);
 
 
             var result = output.ToString();

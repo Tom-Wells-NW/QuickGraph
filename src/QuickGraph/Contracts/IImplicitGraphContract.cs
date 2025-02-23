@@ -15,7 +15,7 @@ namespace QuickGraph.Contracts
         bool IImplicitGraph<TVertex, TEdge>.IsOutEdgesEmpty(TVertex v)
         {
             IImplicitGraph<TVertex, TEdge> ithis = this;
-            Contract.Requires(v != null);
+            Contract.Requires(v is not null);
             Contract.Requires(ithis.ContainsVertex(v));
             Contract.Ensures(Contract.Result<bool>() == (ithis.OutDegree(v) == 0));
 
@@ -26,7 +26,7 @@ namespace QuickGraph.Contracts
         int IImplicitGraph<TVertex, TEdge>.OutDegree(TVertex v)
         {
             IImplicitGraph<TVertex, TEdge> ithis = this;
-            Contract.Requires(v != null);
+            Contract.Requires(v is not null);
             Contract.Requires(ithis.ContainsVertex(v));
             Contract.Ensures(Contract.Result<int>() == Enumerable.Count<TEdge>(ithis.OutEdges(v)));
 
@@ -37,7 +37,7 @@ namespace QuickGraph.Contracts
         IEnumerable<TEdge> IImplicitGraph<TVertex, TEdge>.OutEdges(TVertex v)
         {
             IImplicitGraph<TVertex, TEdge> ithis = this;
-            Contract.Requires(v != null);
+            Contract.Requires(v is not null);
             Contract.Requires(ithis.ContainsVertex(v));
             Contract.Ensures(Contract.Result<IEnumerable<TEdge>>() != null);
             Contract.Ensures(Enumerable.All(Contract.Result<IEnumerable<TEdge>>(), e => e.Source.Equals(v)));
@@ -49,7 +49,7 @@ namespace QuickGraph.Contracts
         bool IImplicitGraph<TVertex, TEdge>.TryGetOutEdges(TVertex v, out IEnumerable<TEdge> edges)
         {
             IImplicitGraph<TVertex, TEdge> ithis = this;
-            Contract.Requires(v != null);
+            Contract.Requires(v is not null);
             Contract.Ensures(!Contract.Result<bool>() || 
                 (Contract.ValueAtReturn(out edges) != null && 
                  Enumerable.All(Contract.ValueAtReturn(out edges), e => e.Source.Equals(v)))
@@ -63,7 +63,7 @@ namespace QuickGraph.Contracts
         TEdge IImplicitGraph<TVertex, TEdge>.OutEdge(TVertex v, int index)
         {
             IImplicitGraph<TVertex, TEdge> ithis = this;
-            Contract.Requires(v != null);
+            Contract.Requires(v is not null);
             Contract.Requires(ithis.ContainsVertex(v));
             Contract.Requires(index >= 0 && index < ithis.OutDegree(v));
             Contract.Ensures(

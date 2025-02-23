@@ -12,15 +12,15 @@ namespace QuickGraph.Contracts
         void IEdgeInvariant()
         {
             IEdge<TVertex> ithis = this;
-            Contract.Invariant(ithis.Source != null);
-            Contract.Invariant(ithis.Target != null);
+            Contract.Invariant(ithis.Source is not null);
+            Contract.Invariant(ithis.Target is not null);
         }
 
         TVertex IEdge<TVertex>.Source
         {
             get
             {
-                Contract.Ensures(Contract.Result<TVertex>() != null);
+                Contract.Ensures(Contract.Result<TVertex>() is not null);
                 return default(TVertex);
             }
         }
@@ -29,7 +29,7 @@ namespace QuickGraph.Contracts
         {
             get
             {
-                Contract.Ensures(Contract.Result<TVertex>() != null);
+                Contract.Ensures(Contract.Result<TVertex>() is not null);
                 return default(TVertex);
             }
         }
