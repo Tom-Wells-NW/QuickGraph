@@ -14,7 +14,6 @@ namespace QuickGraph.Algorithms.ShortestPath
     /// <reference-ref
     ///     idref="lawler01combinatorial"
     ///     />
-    [Serializable]
     public sealed class UndirectedDijkstraShortestPathAlgorithm<TVertex, TEdge> 
         : UndirectedShortestPathAlgorithmBase<TVertex, TEdge>
         , IVertexColorizerAlgorithm<TVertex, TEdge>

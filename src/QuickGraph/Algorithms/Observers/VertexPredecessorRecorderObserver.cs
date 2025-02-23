@@ -12,7 +12,6 @@ namespace QuickGraph.Algorithms.Observers
     /// <reference-ref
     ///     idref="boost"
     ///     />
-    [Serializable]
     public sealed class VertexPredecessorRecorderObserver<TVertex, TEdge> :
         IObserver<ITreeBuilderAlgorithm<TVertex, TEdge>>
         where TEdge : IEdge<TVertex>

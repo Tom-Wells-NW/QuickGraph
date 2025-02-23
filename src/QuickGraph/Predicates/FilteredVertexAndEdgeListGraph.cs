@@ -4,7 +4,6 @@ using System.Diagnostics.Contracts;
 
 namespace QuickGraph.Predicates
 {
-    [Serializable]
     public class FilteredVertexAndEdgeListGraph<TVertex, TEdge, TGraph> :
         FilteredVertexListGraph<TVertex, TEdge, TGraph>,
         IVertexAndEdgeListGraph<TVertex, TEdge>

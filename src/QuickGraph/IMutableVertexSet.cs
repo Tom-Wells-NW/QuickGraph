@@ -18,6 +18,6 @@ namespace QuickGraph
 
         event VertexAction<TVertex> VertexRemoved;
         bool RemoveVertex(TVertex v);
-        int RemoveVertexIf(VertexPredicate<TVertex> pred);
+        int RemoveVertexIf(VertexPredicate<TVertex> predicate);
     }
 }

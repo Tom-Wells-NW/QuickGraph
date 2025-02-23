@@ -16,7 +16,6 @@ namespace QuickGraph.Algorithms.Search
     ///     idref="gross98graphtheory"
     ///     chapter="4.2"
     ///     />
-    [Serializable]
     public sealed class ImplicitEdgeDepthFirstSearchAlgorithm<TVertex, TEdge> :
         RootedAlgorithmBase<TVertex,IIncidenceGraph<TVertex,TEdge>>,
         ITreeBuilderAlgorithm<TVertex,TEdge>

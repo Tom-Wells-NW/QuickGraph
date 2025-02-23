@@ -7,7 +7,6 @@ using System.Linq;
 
 namespace QuickGraph.Algorithms.ConnectedComponents
 {
-    [Serializable]
     public sealed class WeaklyConnectedComponentsAlgorithm<TVertex, TEdge> :
         AlgorithmBase<IVertexListGraph<TVertex,TEdge>>,
         IConnectedComponentAlgorithm<TVertex,TEdge,IVertexListGraph<TVertex,TEdge>>

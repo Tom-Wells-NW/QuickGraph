@@ -8,7 +8,6 @@ namespace QuickGraph.Algorithms.MaximumFlow
     /// <summary>
     /// Abstract base class for maximum flow algorithms.
     /// </summary>
-    [Serializable]
     public abstract class MaximumFlowAlgorithm<TVertex, TEdge> :
         AlgorithmBase<IMutableVertexAndEdgeListGraph<TVertex, TEdge>>,
         IVertexColorizerAlgorithm<TVertex,TEdge>

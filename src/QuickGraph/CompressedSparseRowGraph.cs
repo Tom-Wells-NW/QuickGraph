@@ -10,7 +10,6 @@ namespace QuickGraph
     /// (http://www.cs.utk.edu/~dongarra/etemplates/node373.html)
     /// </summary>
     /// <typeparam name="TVertex">type of the vertices</typeparam>
-    [Serializable]
     [DebuggerDisplay("VertexCount = {VertexCount}, EdgeCount = {EdgeCount}")]
     public sealed class CompressedSparseRowGraph<TVertex>
         : IVertexSet<TVertex>
@@ -18,7 +17,6 @@ namespace QuickGraph
         , IVertexListGraph<TVertex, SEquatableEdge<TVertex>>
         , ICloneable
     {
-        [Serializable]
         struct Range
         {
             public readonly int Start;

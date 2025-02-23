@@ -14,7 +14,6 @@ namespace QuickGraph.Algorithms.MaximumFlow
     /// </summary>
     /// <typeparam name="TVertex">type of a vertex</typeparam>
     /// <typeparam name="TEdge">type of an edge</typeparam>
-    [Serializable]
     public sealed class EdmondsKarpMaximumFlowAlgorithm<TVertex, TEdge>
         : MaximumFlowAlgorithm<TVertex,TEdge>
         where TEdge : IEdge<TVertex>

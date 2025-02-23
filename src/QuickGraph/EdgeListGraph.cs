@@ -6,7 +6,6 @@ using QuickGraph.Collections;
 
 namespace QuickGraph
 {
-    [Serializable]
     [DebuggerDisplay("EdgeCount = {EdgeCount}")]
     public class EdgeListGraph<TVertex, TEdge>
         : IEdgeListGraph<TVertex,TEdge>

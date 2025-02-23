@@ -12,7 +12,6 @@ namespace QuickGraph
     /// </summary>
     /// <typeparam name="TVertex">type of the vertices</typeparam>
     /// <typeparam name="TEdge">type of the edges</typeparam>
-    [Serializable]
     [DebuggerDisplay("VertexCount = {VertexCount}, EdgeCount = {EdgeCount}")]
     public sealed class ArrayBidirectionalGraph<TVertex, TEdge>
         : IBidirectionalGraph<TVertex, TEdge>
@@ -22,7 +21,6 @@ namespace QuickGraph
         readonly Dictionary<TVertex, InOutEdges> vertexEdges;
         readonly int edgeCount;
 
-        [Serializable]
         struct InOutEdges
         {
             private readonly TEdge[] _outEdges;

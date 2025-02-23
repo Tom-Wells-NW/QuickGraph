@@ -3,7 +3,6 @@ using System.Diagnostics.Contracts;
 
 namespace QuickGraph.Algorithms.RandomWalks
 {
-    [Serializable]
     public sealed class RandomWalkAlgorithm<TVertex, TEdge> 
         : ITreeBuilderAlgorithm<TVertex,TEdge>
         where TEdge : IEdge<TVertex>

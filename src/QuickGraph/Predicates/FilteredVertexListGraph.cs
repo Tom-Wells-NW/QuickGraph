@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 namespace QuickGraph.Predicates
 {
-    [Serializable]
     public class FilteredVertexListGraph<TVertex, TEdge, Graph> 
         : FilteredIncidenceGraph<TVertex,TEdge,Graph>
         , IVertexListGraph<TVertex,TEdge>

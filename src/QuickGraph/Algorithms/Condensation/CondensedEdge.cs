@@ -3,7 +3,6 @@ using System.Collections.Generic;
 
 namespace QuickGraph.Algorithms.Condensation
 {
-    [Serializable]
     public sealed class CondensedEdge<TVertex, TEdge, TGraph> : Edge<TGraph>
         where TEdge : IEdge<TVertex>
         where TGraph : IMutableVertexAndEdgeSet<TVertex, TEdge>, new()

@@ -3,7 +3,6 @@ using System.Diagnostics.Contracts;
 
 namespace QuickGraph.Predicates
 {
-    [Serializable]
     public class FilteredGraph<TVertex, TEdge, TGraph> : IGraph<TVertex, TEdge>
         where TEdge : IEdge<TVertex>
         where TGraph : IGraph<TVertex,TEdge>

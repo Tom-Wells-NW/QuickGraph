@@ -5,7 +5,6 @@ using System.Diagnostics.Contracts;
 
 namespace QuickGraph.Algorithms.ShortestPath
 {
-    [Serializable]
     public abstract class UndirectedShortestPathAlgorithmBase<TVertex, TEdge>
         : RootedAlgorithmBase<TVertex, IUndirectedGraph<TVertex,TEdge>>
         , IUndirectedTreeBuilderAlgorithm<TVertex, TEdge>

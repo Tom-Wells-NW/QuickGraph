@@ -2,7 +2,6 @@
 
 namespace QuickGraph
 {
-    [Serializable]
     public class UndirectedEdgeEventArgs<TVertex, TEdge>
         : EdgeEventArgs<TVertex, TEdge>
         where TEdge : IEdge<TVertex>

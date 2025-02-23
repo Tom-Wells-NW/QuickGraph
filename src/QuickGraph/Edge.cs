@@ -8,7 +8,6 @@ namespace QuickGraph
     /// The default <see cref="IEdge&lt;TVertex&gt;"/> implementation.
     /// </summary>
     /// <typeparam name="TVertex">The type of the vertex.</typeparam>
-    [Serializable]
     [DebuggerDisplay("{Source}->{Target}")]
     public class Edge<TVertex> 
         : IEdge<TVertex>

@@ -10,7 +10,6 @@ namespace QuickGraph
     /// </summary>
     /// <typeparam name="TVertex">type of the vertices</typeparam>
     /// <typeparam name="TTag"></typeparam>
-    [Serializable]
     [StructLayout(LayoutKind.Auto)]
     [DebuggerDisplay("{Source}->{Target}:{Tag}")]
     public struct STaggedEdge<TVertex, TTag>

@@ -3,7 +3,6 @@ using System.Collections.Generic;
 
 namespace QuickGraph.Algorithms.RandomWalks
 {
-    [Serializable]
     public abstract class MarkovEdgeChainBase<TVertex, TEdge> : 
         IMarkovEdgeChain<TVertex, TEdge>
         where TEdge : IEdge<TVertex>

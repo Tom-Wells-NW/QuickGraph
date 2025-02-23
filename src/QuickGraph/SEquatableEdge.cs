@@ -9,7 +9,6 @@ namespace QuickGraph
     /// An struct based <see cref="IEdge&lt;TVertex&gt;"/> implementation.
     /// </summary>
     /// <typeparam name="TVertex">The type of the vertex.</typeparam>
-    [Serializable]
     [DebuggerDisplay(EdgeExtensions.DebuggerDisplayEdgeFormatString)]
     [StructLayout(LayoutKind.Auto)]
     public struct SEquatableEdge<TVertex>

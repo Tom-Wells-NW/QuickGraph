@@ -5,7 +5,6 @@ using System.Diagnostics.Contracts;
 
 namespace QuickGraph.Algorithms.MaximumFlow
 {
-    [Serializable]
     public sealed class ReversedEdgeAugmentorAlgorithm<TVertex, TEdge>
         : IDisposable
         where TEdge : IEdge<TVertex>

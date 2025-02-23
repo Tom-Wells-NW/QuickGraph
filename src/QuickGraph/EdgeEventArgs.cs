@@ -8,7 +8,6 @@ namespace QuickGraph
     /// </summary>
     /// <typeparam name="TVertex">The type of the vertex.</typeparam>
     /// <typeparam name="TEdge">The type of the edge.</typeparam>
-    [Serializable]
     public class EdgeEventArgs<TVertex, TEdge> 
         : EventArgs
         where TEdge : IEdge<TVertex>

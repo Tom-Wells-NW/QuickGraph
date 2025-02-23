@@ -5,7 +5,6 @@ namespace QuickGraph.Algorithms
     /// <summary>
     /// The computation state of a graph algorithm
     /// </summary>
-    [Serializable]
     public enum ComputationState
     {
         /// <summary>

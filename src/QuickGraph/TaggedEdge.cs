@@ -3,7 +3,6 @@ using System.Diagnostics.Contracts;
 
 namespace QuickGraph
 {
-	[Serializable]
     public class TaggedEdge<TVertex,TTag> 
         : Edge<TVertex>
         , ITagged<TTag>

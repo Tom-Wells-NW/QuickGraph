@@ -3,7 +3,6 @@ using System.Diagnostics.Contracts;
 
 namespace QuickGraph
 {
-    [Serializable]
     public abstract class VertexEventArgs<TVertex> : EventArgs
     {
         private readonly TVertex vertex;

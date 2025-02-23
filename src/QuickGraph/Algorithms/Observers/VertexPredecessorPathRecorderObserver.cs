@@ -12,7 +12,6 @@ namespace QuickGraph.Algorithms.Observers
     /// <reference-ref
     ///     idref="boost"
     ///     />
-    [Serializable]
     public sealed class VertexPredecessorPathRecorderObserver<TVertex, TEdge> :
         IObserver<IVertexPredecessorRecorderAlgorithm<TVertex, TEdge>>
         where TEdge : IEdge<TVertex>

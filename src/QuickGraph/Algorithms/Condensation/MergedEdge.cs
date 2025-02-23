@@ -3,7 +3,6 @@ using System.Collections.Generic;
 
 namespace QuickGraph.Algorithms.Condensation
 {
-    [Serializable]
     public sealed class MergedEdge<TVertex, TEdge> : Edge<TVertex>
         where TEdge : IEdge<TVertex>
     {

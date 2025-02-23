@@ -14,7 +14,6 @@ namespace QuickGraph.Algorithms.Search
     ///     idref="gross98graphtheory"
     ///     chapter="4.2"
     ///     />
-    [Serializable]
     public sealed class DepthFirstSearchAlgorithm<TVertex, TEdge> :
         RootedAlgorithmBase<TVertex,IVertexListGraph<TVertex, TEdge>>,
         IDistanceRecorderAlgorithm<TVertex,TEdge>,

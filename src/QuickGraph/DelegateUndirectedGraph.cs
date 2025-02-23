@@ -10,7 +10,6 @@ namespace QuickGraph
     /// </summary>
     /// <typeparam name="TVertex">type of the vertices</typeparam>
     /// <typeparam name="TEdge">type of the edges</typeparam>
-    [Serializable]
     public class DelegateUndirectedGraph<TVertex, TEdge>
         : DelegateImplicitUndirectedGraph<TVertex, TEdge>
         , IUndirectedGraph<TVertex, TEdge>

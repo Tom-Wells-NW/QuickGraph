@@ -9,7 +9,6 @@ namespace QuickGraph.Algorithms.Observers
     /// </summary>
     /// <typeparam name="TVertex">type of a vertex</typeparam>
     /// <typeparam name="TEdge">type of an edge</typeparam>
-    [Serializable]
     public sealed class VertexDistanceRecorderObserver<TVertex, TEdge>
         : IObserver<ITreeBuilderAlgorithm<TVertex, TEdge>>
         where TEdge : IEdge<TVertex>

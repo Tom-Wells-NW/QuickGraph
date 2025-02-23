@@ -8,7 +8,6 @@ namespace QuickGraph
     /// </summary>
     /// <typeparam name="TVertex">type of the vertices</typeparam>
     /// <typeparam name="TEdge">type of the edges</typeparam>
-    [Serializable]
     public class DelegateIncidenceGraph<TVertex, TEdge>
         : DelegateImplicitGraph<TVertex, TEdge>
         , IIncidenceGraph<TVertex, TEdge>

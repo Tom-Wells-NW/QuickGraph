@@ -4,7 +4,6 @@ using QuickGraph.Predicates;
 
 namespace QuickGraph.Algorithms.Ranking
 {
-    [Serializable]
     public sealed class PageRankAlgorithm<TVertex, TEdge> :
         AlgorithmBase<IBidirectionalGraph<TVertex, TEdge>>
         where TEdge : IEdge<TVertex>

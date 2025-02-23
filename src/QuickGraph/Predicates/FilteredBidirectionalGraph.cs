@@ -4,7 +4,6 @@ using System.Diagnostics.Contracts;
 
 namespace QuickGraph.Predicates
 {
-    [Serializable]
     public class FilteredBidirectionalGraph<TVertex, TEdge, TGraph> 
         : FilteredVertexListGraph<TVertex, TEdge, TGraph>
         , IBidirectionalGraph<TVertex, TEdge>

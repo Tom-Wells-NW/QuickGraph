@@ -7,7 +7,6 @@ using System.Diagnostics.Contracts;
 
 namespace QuickGraph.Algorithms.ConnectedComponents
 {
-    [Serializable]
     public sealed class ConnectedComponentsAlgorithm<TVertex, TEdge> :
         AlgorithmBase<IUndirectedGraph<TVertex, TEdge>>,
         IConnectedComponentAlgorithm<TVertex,TEdge,IUndirectedGraph<TVertex,TEdge>>

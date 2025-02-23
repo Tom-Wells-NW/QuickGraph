@@ -3,7 +3,6 @@ using System.Collections.Generic;
 
 namespace QuickGraph.Predicates
 {
-    [Serializable]
     public class FilteredIncidenceGraph<TVertex, TEdge, TGraph> 
         : FilteredImplicitGraph<TVertex,TEdge,TGraph>
         , IIncidenceGraph<TVertex,TEdge>

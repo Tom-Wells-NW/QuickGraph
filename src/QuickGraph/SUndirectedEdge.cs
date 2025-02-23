@@ -10,7 +10,6 @@ namespace QuickGraph
     /// An struct based <see cref="IUndirectedEdge&lt;TVertex&gt;"/> implementation.
     /// </summary>
     /// <typeparam name="TVertex">The type of the vertex.</typeparam>
-    [Serializable]
     [DebuggerDisplay(EdgeExtensions.DebuggerDisplayUndirectedEdgeFormatString)]
     [StructLayout(LayoutKind.Auto)]
     public struct SUndirectedEdge<TVertex>

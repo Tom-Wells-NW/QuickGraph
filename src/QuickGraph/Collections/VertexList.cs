@@ -3,7 +3,6 @@ using System.Collections.Generic;
 
 namespace QuickGraph.Collections
 {
-    [Serializable]
     public sealed class VertexList<TVertex>
         : List<TVertex>
         , ICloneable

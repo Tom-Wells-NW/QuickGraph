@@ -6,7 +6,6 @@ using System.Diagnostics.Contracts;
 
 namespace QuickGraph.Algorithms.TopologicalSort
 {
-    [Serializable]
     public sealed class TopologicalSortAlgorithm<TVertex,TEdge> :
         AlgorithmBase<IVertexListGraph<TVertex, TEdge>>
         where TEdge : IEdge<TVertex>

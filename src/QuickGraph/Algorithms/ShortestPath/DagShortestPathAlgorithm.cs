@@ -12,7 +12,6 @@ namespace QuickGraph.Algorithms.ShortestPath
     /// <reference-ref
     ///     id="boost"
     ///     />
-    [Serializable]
     public sealed class DagShortestPathAlgorithm<TVertex, TEdge> :
         ShortestPathAlgorithmBase<TVertex,TEdge,IVertexListGraph<TVertex,TEdge>>,
         IVertexColorizerAlgorithm<TVertex,TEdge>,

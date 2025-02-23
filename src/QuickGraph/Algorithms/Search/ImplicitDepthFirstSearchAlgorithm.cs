@@ -11,7 +11,6 @@ namespace QuickGraph.Algorithms.Search
     ///     idref="gross98graphtheory"
     ///     chapter="4.2"
     ///     />
-    [Serializable]
     public sealed class ImplicitDepthFirstSearchAlgorithm<TVertex, TEdge> :
         RootedAlgorithmBase<TVertex,IIncidenceGraph<TVertex,TEdge>>,
         IVertexPredecessorRecorderAlgorithm<TVertex,TEdge>,

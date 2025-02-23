@@ -4,7 +4,6 @@ using System.Linq;
 
 namespace QuickGraph.Algorithms.RandomWalks
 {
-    [Serializable]
     public sealed class NormalizedMarkovEdgeChain<TVertex, TEdge> :
         MarkovEdgeChainBase<TVertex, TEdge>
         where TEdge : IEdge<TVertex>

@@ -16,7 +16,6 @@ namespace QuickGraph.Algorithms.Search
     ///     idref="gross98graphtheory"
     ///     chapter="4.2"
     ///     />
-    [Serializable]
     public sealed class BidirectionalDepthFirstSearchAlgorithm<TVertex, TEdge> :
         RootedAlgorithmBase<TVertex, IBidirectionalGraph<TVertex, TEdge>>,
         IVertexColorizerAlgorithm<TVertex, TEdge>,

@@ -4,7 +4,6 @@ using System.Diagnostics.Contracts;
 
 namespace QuickGraph.Algorithms.MaximumFlow
 {
-    [Serializable]
     public sealed class GraphBalancerAlgorithm<TVertex, TEdge>
         where TEdge : IEdge<TVertex>
     {

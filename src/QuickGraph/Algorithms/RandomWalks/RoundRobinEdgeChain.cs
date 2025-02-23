@@ -4,7 +4,6 @@ using System.Linq;
 
 namespace QuickGraph.Algorithms.RandomWalks
 {
-    [Serializable]
     public sealed class RoundRobinEdgeChain<TVertex, TEdge> 
         : IEdgeChain<TVertex, TEdge>
         where TEdge : IEdge<TVertex>

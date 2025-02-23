@@ -2,7 +2,6 @@
 using System.Diagnostics.Contracts;
 namespace QuickGraph.Predicates
 {
-    [Serializable]
     public class FilteredImplicitVertexSet<TVertex, TEdge, TGraph> 
         : FilteredGraph<TVertex,TEdge,TGraph>
         , IImplicitVertexSet<TVertex>

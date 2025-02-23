@@ -4,7 +4,6 @@ using System.Diagnostics.Contracts;
 
 namespace QuickGraph.Collections
 {
-    [Serializable]
     public sealed class BinaryQueue<TVertex, TDistance> : 
         IPriorityQueue<TVertex>
     {

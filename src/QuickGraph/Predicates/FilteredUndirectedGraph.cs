@@ -4,7 +4,6 @@ using System.Diagnostics.Contracts;
 
 namespace QuickGraph.Predicates
 {
-    [Serializable]
     public sealed class FilteredUndirectedGraph<TVertex,TEdge,TGraph> :
         FilteredGraph<TVertex,TEdge,TGraph>,
         IUndirectedGraph<TVertex,TEdge>

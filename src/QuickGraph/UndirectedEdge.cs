@@ -9,7 +9,6 @@ namespace QuickGraph
     /// The default <see cref="IUndirectedEdge&lt;TVertex&gt;"/> implementation.
     /// </summary>
     /// <typeparam name="TVertex">The type of the vertex.</typeparam>
-    [Serializable]
     [DebuggerDisplay(EdgeExtensions.DebuggerDisplayUndirectedEdgeFormatString)]
     public class UndirectedEdge<TVertex> 
         : IUndirectedEdge<TVertex>

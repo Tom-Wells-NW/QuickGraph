@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Diagnostics.Contracts;
 namespace QuickGraph.Predicates
 {
-    [Serializable]
     public sealed class ReversedResidualEdgePredicate<TVertex,TEdge>
         where TEdge : IEdge<TVertex>
     {
