@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace QuickGraph
+﻿namespace QuickGraph
 {
     //public delegate void Action<T>(T value);
     //public delegate void Action<T1, T2>(T1 value1, T2 value2);

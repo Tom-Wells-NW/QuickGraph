@@ -1,8 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using QuickGraph.Algorithms.MaximumFlow;
 using System.Diagnostics.Contracts;
-using System.Diagnostics;
 
 namespace QuickGraph.Algorithms
 {

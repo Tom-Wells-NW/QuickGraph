@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
 using QuickGraph.Algorithms.Services;
 using System.Diagnostics.Contracts;
 using QuickGraph.Collections;

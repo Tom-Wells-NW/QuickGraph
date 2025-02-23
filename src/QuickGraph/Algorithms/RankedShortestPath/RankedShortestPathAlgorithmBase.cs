@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 using QuickGraph.Algorithms.Services;
-using QuickGraph.Algorithms.ShortestPath;
 using System.Diagnostics.Contracts;
 using System.Linq;
 

@@ -1,5 +1,4 @@
-﻿using System;
-namespace QuickGraph
+﻿namespace QuickGraph
 {
     /// <summary>
     /// Exception raised when an algorithm detects a non-strongly connected graph.
